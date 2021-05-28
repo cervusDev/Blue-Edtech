@@ -7,6 +7,7 @@ class Doctor(Person):
 #GET
     def getCrm(self):
         return self.__crm
+    
 #SET
     def setCrm(self, crm):
         self.__crm = crm

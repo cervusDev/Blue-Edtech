@@ -5,7 +5,7 @@ class Person():
         self.__name = name
         self.__cpf = cpf
         self.__age = age
-        self.__phone = Phone(phone) # Letra maiúscula ?
+        self.__phone = Phone(phone) 
         
 # GET
     def getName(self):

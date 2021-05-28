@@ -12,16 +12,16 @@ doctorList.append(SecondPersonDoctor)
 
 #                          oab    name     cpf     telefone
 FirstPersonLawyer = Lawyer(2343, 'Hector', 345435, 5435534)
-SecondPersonLawyer - Lawyer(2345, 'Ricardo', 1233, 3213213)
+SecondPersonLawyer = Lawyer(2345, 'Ricardo', 1233, 3213213)
 
 lawyerList.append(FirstPersonLawyer)
 lawyerList.append(SecondPersonLawyer)
 
 for law in lawyerList:
     print('OAB: {} | NAME: {} | AGE: {}'.format(law.getOab(), law.getName(), law.getAge()))
-    print('CPF: {} | PHONE: {}'.format(law.getCpf(), law.getPhone().getPhone())),end = '\n\n'
+    print('CPF: {} | PHONE: {}'.format(law.getCpf(), law.getPhone().getPhone()))
     
 for med in doctorList:
     print('CRM: {} | NAME: {} | AGE: {}'.format(med.getOab(), med.getName(), med.getAge()))
-    print('CPF: {} | PHONE: {}'.format(med.getCpf(), med.getPhone().medPhone())),end = '\n\n'
+    print('CPF: {} | PHONE: {}'.format(med.getCpf(), med.getPhone().medPhone()))
     
