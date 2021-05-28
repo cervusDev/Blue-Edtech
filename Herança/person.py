@@ -1,4 +1,4 @@
-from telephone import Phone
+from phone import Phone
 
 class Person():
     def __init__(self, name, cpf, age, phone):
