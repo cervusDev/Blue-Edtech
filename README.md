@@ -1,2 +1,5 @@
 # Blue-Edtech
-  This repository was created to share the content of my experiences at EdTechBlue
+  Esse repositório foi criado para compartilhar minhas experiências 
+  nas instituição de ensino Blue EdTech.
+  
+  ## 1° Modulo: Lógica de programação
