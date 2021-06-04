@@ -13,7 +13,7 @@
       - Operações Lógicas e relacionais
       - Funções
       - Estruturas de dados: listas, tuplas e dicionários
-      - Loops: for, while
+      - Loops: for e while
       - Programação orientada a objetos
       
       Ao final do módulo, nosso aprendizado foi testado por meio da criação
