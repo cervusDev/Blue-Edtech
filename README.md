@@ -5,4 +5,16 @@
   
   ## 1° Modulo: Lógica de programação
   
-   [x] - 
+      O módulo contou com os principais assuntos relacionados a lógica de programação
+      
+      ensinados por meio da LP Python. Pudemos compreender assuntos como:
+      
+      - Variáveis
+      - Operações aritiméticas
+      - Operações Lógicas e relacionais
+      - Funções
+      - Estruturas de dados: listas, tuplas e dicionários
+      - Loops: for, while
+      - Programação orientada a objetos
+      
+      
