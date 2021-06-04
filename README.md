@@ -21,7 +21,7 @@
       ambientes no qual os jogadores usam comandos de texto para controlar
       personagens do jogo e influenciar o ambiente.
       
-      O projeto desenvolvido chama-se RunAway,um jogo em que um jogador descobre pistas, resolve
+      O jogo chama-se RunAway, onde um jogador descobre pistas, resolve
       quebra-cabeças e realiza tarefas em uma ou mais salas para cumprir um objetivo específico
       em um período de tempo limitado. O objetivo geralmente é escapar da sala, porém, se decidir
       explorar esse jogo, vai encontrar algo a mais.
