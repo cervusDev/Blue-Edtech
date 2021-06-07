@@ -6,6 +6,13 @@
     Ordem dos títulos: Introdução do documento HTML e titulos no corpo
     do arquivo.
 
-    Lista ordenada: 
+    Lista ordenada: Como construir uma lista ordenda e os parametros 
+    associados a elas
+
+    Inserindo uma imagem: As diferentes formas de inserir uma imagem em 
+    um documento HTML
+
+    Utilizando o CSS: Primeiros passos utilizando o CSS e as diferentes
+    formas de estilizar um documento HTML
 
 # 2° Aula

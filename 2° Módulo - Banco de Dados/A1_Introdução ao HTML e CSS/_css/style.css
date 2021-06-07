@@ -1,0 +1,6 @@
+body {
+
+    background-color: tomato;
+    /* background-color: rgb(255, 80 ,40); */
+    background-color: rgba(255, 80, 40, 0.8);
+}
