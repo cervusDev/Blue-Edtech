@@ -22,4 +22,8 @@
 
     css externo: Como usar o css externo, nomear e declarar classes e id
 
+    Projeto: O projeto é um jogo nomeado de calculadora de danos onde você
+    seleciona um um inimigo e o ataca, causando dano a depender do inimigo
+    e do tipo de ataque.
+    
 # 3° Aula
