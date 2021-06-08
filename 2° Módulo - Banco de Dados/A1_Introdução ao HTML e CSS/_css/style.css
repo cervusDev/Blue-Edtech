@@ -1,22 +1,78 @@
-img {
-    width: 7vw; 
-}
-.container {
-    border-width: 100px ;
-    border-color: darkcyan;
-    border-style: solid;
-    display: flex;
-    justify-content: flex-start;
-}
-.itens {
-    border-width: 120px ;
-    border-color: blue;
-    border-style: solid;
-    width: 411px;
-}
-.itenstwo {
-    border-width: 120px;
+.one {
+    border-width: 3px;
     border-color: black;
-    border-style: solid ;
-    width: 411px;
+    border-style: solid;
+}
+
+img {
+    width: 100px;
+}
+
+.two {
+    border-width: 3px;
+    border-color: #3359EC;
+    border-style: solid;
+    margin-top: 10px;
+    
+    /* Deslocando elementos*/
+    margin-left: 300px;
+    margin-right: 250px;
+}
+
+.two h3 {
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+}
+
+.three {
+    border-width: 3px;
+    border-color: #FFE921;
+    border-style: solid;
+    margin-top: 10px;
+
+    /* Deslocando elementos*/
+    margin-right: 400px;
+}
+
+.four {
+    border-width: 3px;
+    border-color: #FF58F0;
+    border-style: solid;
+    margin-top: 10px;
+
+    /* Deslocando elementos*/
+    margin-left: 400px;
+    margin-top: -115px;
+}
+
+table {
+    border: 1px solid black;
+}
+
+.thone {
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.thtwo {
+    border-bottom: 1px solid black;
+}
+
+.tdone {
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.tdtwo {
+    border-bottom: 1px solid black;
+}
+
+.tdthree {
+    border-bottom: 1px solid black;
+    border-right: 1px solid balck;
+}
+
+.tdfour {
+    border-bottom: 1px solid black;
 }
