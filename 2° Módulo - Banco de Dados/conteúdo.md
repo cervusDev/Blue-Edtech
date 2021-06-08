@@ -16,3 +16,10 @@
     formas de estilizar um documento HTML
 
 # 2° Aula
+
+    Aula de Codelab, relacionada a aplicação dos conceitos abordados na 
+    aula anterior, bem como demonstração do uso de flex box e css externo
+
+    css externo: Como usar o css externo, nomear e declarar classes e id
+
+# 3° Aula

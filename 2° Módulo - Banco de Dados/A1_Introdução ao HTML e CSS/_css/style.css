@@ -1,4 +1,4 @@
-.one {
+.logo{
     border-width: 3px;
     border-color: black;
     border-style: solid;
@@ -8,24 +8,24 @@ img {
     width: 100px;
 }
 
-.two {
+.modulo {
     border-width: 3px;
     border-color: #3359EC;
     border-style: solid;
     margin-top: 10px;
-    
+
     /* Deslocando elementos*/
     margin-left: 300px;
     margin-right: 250px;
 }
 
-.two h3 {
+.modulo h3 {
     align-items: center;
     justify-content: center;
     margin-left: 15px;
 }
 
-.three {
+.conteudo {
     border-width: 3px;
     border-color: #FFE921;
     border-style: solid;
@@ -35,7 +35,7 @@ img {
     margin-right: 400px;
 }
 
-.four {
+.listaPresenca {
     border-width: 3px;
     border-color: #FF58F0;
     border-style: solid;

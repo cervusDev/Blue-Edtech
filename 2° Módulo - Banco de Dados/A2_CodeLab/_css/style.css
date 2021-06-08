@@ -1,0 +1,14 @@
+* {
+    background-color: darkcyan;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.frase {
+    font-weight: bolder;
+    color: whitesmoke;
+}
+
+.nome {
+    font-weight: 500;
+    color: tomato;
+}
