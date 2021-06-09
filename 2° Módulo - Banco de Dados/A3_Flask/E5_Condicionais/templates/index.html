@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Aula 03 - Flask: Condicionais </title>
+
+</head>
+
+    <body>
+        <div class="nome">
+            <p>Nome do personagem</p>{{name}}
+        </div>
+
+        <div class="hp">
+            <p>HP</p>{{hp}}
+        </div>
+        <!-- If aberto -->
+        {% if exibir_imagem %}
+
+        <div class="bloco-info">
+            <img src="{{imagem}}" alt="">
+        </div>
+        
+        <!-- If fechado -->
+        {% endif %}
+    </body>
+
+</html>

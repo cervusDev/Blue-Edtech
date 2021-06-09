@@ -1,0 +1,14 @@
+body {
+    background-color: chocolate;
+    font-family: 'verdana', sans-serif;
+}
+
+h1 {
+    font-weight: bolder;
+    color: teal;
+}
+
+h2 {
+    font-weight: bold;
+    color: palegreen;
+}
