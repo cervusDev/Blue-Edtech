@@ -1,10 +1,11 @@
+from logging import debug
 from flask import Flask, render_template
 
 app = Flask(__name__)
 
 @app.route('/')
 def home():
-    luffy_name = 'Monk D. Luffy'
+    luffy_name = 'Monkey D. Luffy'
     kaido_name = 'Kaido das Feras'
 
     exibir_imagem = True
@@ -16,7 +17,6 @@ def home():
     'index.html',
     exibir_imagem = exibir_imagem,
     luffy_name = luffy_name,
-    kaido_name = kaido_name,
     luffy = luffy,
     kaido = kaido,
     )

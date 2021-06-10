@@ -4,11 +4,8 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-
-    imagem = '_imagem/orc.png'
     return render_template(
     'index.html',
-
     )
 
 if __name__ == '__main__':
