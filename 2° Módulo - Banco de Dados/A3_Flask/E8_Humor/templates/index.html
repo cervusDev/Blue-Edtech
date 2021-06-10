@@ -11,9 +11,26 @@
 
     </head>
 
-    <body>
-        
-        
+    <body>  
+        {% if image %}
+
+        <div class="wrapper-bolado">
+            <img src="{{luffyBolado}}">
+        </div>
+        <form action="/troca" method="POST">
+            <button>Trocar</button>
+        </form>
+
+        {% else %}
+
+        <div class="wrapper-suave">
+            <img src="{{luffySuave}}" alt="">
+        </div>
+        <form action="/">
+            <button>Trocar</button>
+        </form>
+
+        {% endif %}
 
     </body>
 </html>
