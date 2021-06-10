@@ -5,27 +5,34 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../static/style.css">
         <title> Aula 03 - Flask: Condicionais </title>
 
 </head>
 
     <body>
-        <div class="nome">
-            <p>Nome do personagem</p>{{name}}
-        </div>
-
-        <div class="hp">
-            <p>HP</p>{{hp}}
-        </div>
-        <!-- If aberto -->
-        {% if exibir_imagem %}
-
-        <div class="bloco-info">
-            <img src="{{imagem}}" alt="">
-        </div>
+        <div class="wrapper-gif">
+            <div class="luffy">
+                <p></p>{{luffy_name}}
+            </div>
         
-        <!-- If fechado -->
-        {% endif %}
+            <!-- If aberto -->
+            {% if exibir_imagem %}
+
+            <div class="wrapper-luffy">
+                <img src="{{luffy}}" alt="">
+            </div>
+
+            <div class="kaido">
+                <p></p>{{kaido_name}}
+            </div>
+            <div class="wrapper-kaido">
+                <img src="{{kaido}}" alt="">
+            </div>
+            
+            <!-- If fechado -->
+            {% endif %}
+        </div>
     </body>
 
 </html>
