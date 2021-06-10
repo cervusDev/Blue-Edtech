@@ -29,3 +29,16 @@
 # 3° Aula
 
     Aula de introdução ao Framework Flask
+
+    Pontos importantes para rodar uma aplicação Flask:
+
+        1. As pastas e arquivos devem conter os nomes especificos, determinados
+        pela documentação do flask, como: templates, static, app.py entre outras.
+
+        2. Ao executar a aplicação app.py é preciso estar no diretorio específico do arquivo
+        verificar o local via terminal
+
+    Bibliotecas: 
+        Flask, render_template
+    
+
