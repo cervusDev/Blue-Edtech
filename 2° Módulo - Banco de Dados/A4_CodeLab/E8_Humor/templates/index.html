@@ -11,26 +11,46 @@
 
     </head>
 
-    <body>  
-        {% if image %}
+    <body> 
+        <div class="container">
+            {% if image %}
+            <div class="conteudo">
+                <div class="nome">
+                    <p></p>{{nome}}
+                </div>
 
-        <div class="wrapper-bolado">
-            <img src="{{luffyBolado}}">
+                <div class="humor">
+                    <p></p>{{humor}} <b>BOLADASSO</b>
+                </div>
+
+                <div class="wrapper-bolado">
+                    <img src="{{luffyBolado}}">
+                </div>
+
+                <form action="/troca" method="POST">
+                    <button>Trocar</button>
+                </form>
+            </div>
+                {% else %}
+                <div class="conteudo">
+                    <div class="nome">
+                        <p></p> {{nome}}
+                    </div>
+
+                    <div class="humor">
+                        <p></p>{{humor}} <b>SUAVERA</b>
+                    </div>
+
+                    <div class="wrapper-suave">
+                        <img src="{{luffySuave}}" alt="">
+                    </div>
+
+                    <form action="/">
+                        <button>Trocar</button>
+                    </form>
+                </div>
+                {% endif %}
         </div>
-        <form action="/troca" method="POST">
-            <button>Trocar</button>
-        </form>
-
-        {% else %}
-
-        <div class="wrapper-suave">
-            <img src="{{luffySuave}}" alt="">
-        </div>
-        <form action="/">
-            <button>Trocar</button>
-        </form>
-
-        {% endif %}
 
     </body>
 </html>

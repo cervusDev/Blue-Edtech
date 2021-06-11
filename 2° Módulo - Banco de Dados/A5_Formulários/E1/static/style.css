@@ -34,6 +34,7 @@ body{
     height: 1.5rem;
 
     border: none;
+    outline-style: none;
 }
 
 .wrapper-name input::placeholder {
@@ -47,6 +48,8 @@ body{
     text-align: center;
     height: 1.5rem;
     margin: 1.5rem;
+
+    outline-style: none;
     border: none;
 }
 .wrapper-password input::placeholder {

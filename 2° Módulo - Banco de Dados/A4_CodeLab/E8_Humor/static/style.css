@@ -4,7 +4,35 @@
     box-sizing: border-box;
 }
 
+body {
+    background: url(_image/857192.jpg);
+    background-repeat: none;
+    
+}   
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+.conteudo {
+   text-align: center;
+}
+.nome, .humor {
+    padding: 1rem;
+    font-family: monospace;
+}
+
 button {
     width: 5rem;
     height: 5rem;
+
+    margin-top: 3rem;
+
+    background: url(_image/857192.jpg);
+    border-radius: 1rem;
+}
+
+img {
+    border-radius: 100%;
+    box-shadow: 5px 5px 5px black;
 }
