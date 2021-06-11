@@ -10,7 +10,7 @@ def home():
     return render_template(
     'index.html',
     luffyBolado = luffyBolado,
-    image = image
+    image = image   
     )
 
 @app.route('/troca', methods = ['POST'])

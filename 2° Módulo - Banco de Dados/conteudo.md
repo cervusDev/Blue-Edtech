@@ -40,5 +40,17 @@
 
     Bibliotecas: 
         Flask, render_template
+
+# 4° Aula
+
+    Foi abordado o conteúdo de condicionais juntamente com o 
+    microframework Flask, sendo possível trabalhar o comportamento
+    de um documento HTML por meio de condicionais da linguagem python.
+
+# 5 Aula
+
+    Aula relacionada a formulários e métodos do protocolo HTTP
+    como o GET e POST e a dinâmica destes métodos dentro de um 
+    forms HTML
     
 
