@@ -5,18 +5,21 @@
 }
 
 body {
-    background: url(_images/bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
     font-family: 'Roboto';
+
+    background: url(_images/bg.jpg);    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed
 }
 
 .container {
     position: relative;
+
 }
 
 .title {
-    margin-top: 1rem;
+    margin-top: 3rem;
 
     color: whitesmoke;
     text-shadow: 3px 3px 3px black;
@@ -26,8 +29,6 @@ body {
     font-style: italic;
     text-align: center;
     font-weight: 500;
-
-
 }
 
 .title p {
@@ -41,7 +42,7 @@ body {
 
 .flex {
     display:flex;
-    justify-content: center;
+    justify-content: center;      
 }
 
 .character-one {
@@ -91,6 +92,13 @@ body {
 .ahri-name p {
     padding: .5rem;
     color: whitesmoke;
+
+    color: whitesmoke;
+
+    font-family: 'Vollkorn+SC';
+    font-style: italic;
+    font-weight: bolder;
+    letter-spacing: .2rem;
 }
 
 .card-info-ahri{
@@ -157,6 +165,11 @@ body {
 .braum-name p {
     padding: .5rem;
     color: whitesmoke;
+
+    font-family: 'Vollkorn+SC';
+    font-style: italic;
+    font-weight: bolder;
+    letter-spacing: .2rem;
 }
 
 .card-info-braum {
@@ -221,6 +234,11 @@ body {
 .aurelion-name p {
     padding: .5rem;
     color: whitesmoke;
+
+    font-family: 'Vollkorn+SC';
+    font-style: italic;
+    font-weight: bolder;
+    letter-spacing: .2rem;
 }
 
 .card-info-aurelion {
@@ -238,3 +256,251 @@ body {
 .card-info-aurelion:hover {
     opacity: 1;
 }
+
+.character-four {
+    width: 300px;
+    height: 400px;
+
+    background: rgba(0, 0, 0, .5);
+    border-radius: .5rem;
+
+    position: absolute;
+    align-items: center;
+    margin-top: 45%;
+    margin-right: 70%; 
+
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    transition: all .5
+}
+
+.character-four:hover{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.wrapper-fizz {
+    width: 300px;
+    height: 180px;
+    
+    background: url(_images/Fizz.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: .2rem;
+}
+
+.fizz-name {
+    width: 300px;
+    height: 40px;
+
+    text-align: center;
+    
+    text-transform: capitalize;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+.fizz-name p {
+    padding: .5rem;
+    color: whitesmoke;
+
+    font-family: 'Vollkorn+SC';
+    font-style: italic;
+    font-weight: bolder;
+    letter-spacing: .2rem;
+}
+
+.card-info-fizz {
+    letter-spacing: .1rem;
+    opacity: 0;
+    transition: all .3s ;
+}
+
+.card-info-fizz p {
+    padding: 1.5rem;
+    color: whitesmoke;
+    text-shadow: 2px 2px 2px black;
+}
+
+.card-info-fizz:hover {
+    opacity: 1;
+}
+
+.character-five {
+    width: 300px;
+    height: 400px;
+
+    background: rgba(0, 0, 0, .5);
+    border-radius: .5rem;
+
+    position: absolute;
+    align-items: center;
+    margin-top: 45%;
+    margin-right: -70%; 
+
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    transition: all .5
+}
+
+.character-five:hover{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.wrapper-anivia {
+    width: 300px;
+    height: 180px;
+    
+    background: url(_images/anivia.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: .2rem;
+}
+
+.anivia-name {
+    width: 300px;
+    height: 40px;
+
+    text-align: center;
+    
+    text-transform: capitalize;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+.anivia-name p {
+    padding: .5rem;
+    color: whitesmoke;
+
+    font-family: 'Vollkorn+SC';
+    font-style: italic;
+    font-weight: bolder;
+    letter-spacing: .2rem;
+}
+
+.card-info-anivia {
+    letter-spacing: .1rem;
+    opacity: 0;
+    transition: all .3s ;
+}
+
+.card-info-anivia p {
+    padding: 1.5rem;
+    color: whitesmoke;
+    text-shadow: 2px 2px 2px black;
+}
+
+.card-info-anivia:hover {
+    opacity: 1;
+}
+
+.character-six {
+    width: 300px;
+    height: 400px;
+
+    background: rgba(0, 0, 0, .5);
+    border-radius: .5rem;
+
+    position: absolute;
+    align-items: center;
+    margin-top: 45%;
+
+
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    transition: all .5
+}
+
+.character-six:hover{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.wrapper-heimer {
+    width: 300px;
+    height: 180px;
+    
+    background: url(_images/Heimerdinger.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: .2rem;
+}
+
+.heimer-name {
+    width: 300px;
+    height: 40px;
+
+    text-align: center;
+    
+    text-transform: capitalize;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+.heimer-name p {
+    padding: .5rem;
+    color: whitesmoke;
+
+    font-family: 'Vollkorn+SC';
+    font-style: italic;
+    font-weight: bolder;
+    letter-spacing: .2rem;
+}
+
+.card-info-heimer {
+    letter-spacing: .1rem;
+    opacity: 0;
+    transition: all .3s ;
+}
+
+.card-info-heimer p {
+    padding: 1.5rem;
+    color: whitesmoke;
+    text-shadow: 2px 2px 2px black;
+}
+
+.card-info-heimer:hover {
+    opacity: 1;
+}
+
+.wrapper-button {
+    width: 200px;
+    height: 100px;
+
+    background: rgba(0, 0, 0, .5);
+    border-radius: .5rem;
+
+    position: absolute;
+    align-items: center;
+    margin-top: 75%;
+    border-radius: 1rem;
+}
+
+.wrapper-button button {
+    width: 200px;
+    height: 100px;
+    
+    background: rgba(0, 0, 0, .7);
+    border: none;
+    border-radius: 1rem;
+
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    transition: all .5s 
+}
+
+.wrapper-button button p {
+    color: whitesmoke;
+    font-family: 'Roboto';
+    font-style: italic;
+    font-size: 2rem;
+
+}
+
+.wrapper-button:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
