@@ -13,7 +13,7 @@ def home():
     luffyBolado = luffyBolado,
     image = image,
     nome = nome ,
-    humor = humor
+    humor = humor,
     )
 
 @app.route('/troca', methods = ['POST'])
@@ -27,7 +27,7 @@ def troca():
     image = image,
     luffySuave = luffySuave,
     nome = nome ,
-    humor = humor
+    humor = humor,
     )
 
 if __name__ == '__main__':
