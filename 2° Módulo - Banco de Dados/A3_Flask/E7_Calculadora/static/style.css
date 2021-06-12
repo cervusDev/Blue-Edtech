@@ -6,7 +6,6 @@
 
 body {
     font-family: 'Roboto';
-
     background: url(_images/bg.jpg);    
     background-size: cover;
     background-repeat: no-repeat;
@@ -15,12 +14,11 @@ body {
 
 .container {
     position: relative;
-
 }
 
 .title {
+    position: absolute;
     margin-top: 3rem;
-
     color: whitesmoke;
     text-shadow: 3px 3px 3px black;
     
@@ -470,11 +468,10 @@ body {
 
     background: rgba(0, 0, 0, .5);
     border-radius: .5rem;
-
-    position: absolute;
     align-items: center;
     margin-top: 75%;
     border-radius: 1rem;
+    margin-bottom: 2rem;
 }
 
 .wrapper-button button {
