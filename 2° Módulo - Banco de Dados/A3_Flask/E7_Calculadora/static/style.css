@@ -4,8 +4,14 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 62.25%;
+}
+
 body {
     font-family: 'Roboto';
+    font-size: 1.6rem;
+
     background: url(_images/bg.jpg);    
     background-size: cover;
     background-repeat: no-repeat;
@@ -31,8 +37,8 @@ body {
 
 .title p {
     font-family:'Vollkorn+SC';
-    padding: 1rem;
-    font-size: 5rem;
+    padding: 2rem;
+    font-size: 10rem;
     font-weight: bolder;
     letter-spacing: .5rem;
 }
@@ -44,8 +50,8 @@ body {
 }
 
 .character-one {
-    width: 300px;
-    height: 400px;
+    width: 30.2rem;
+    height: 40rem;
 
     background: rgba(0, 0, 0, .5);
     border-radius: .5rem;
@@ -68,8 +74,8 @@ body {
 }
 
 .wrapper-ahri {
-    width: 300px;
-    height: 180px;
+    width: 30rem;
+    height: 18rem;
     
     background: url(_images/ahri.jpg);
     background-repeat: no-repeat;
@@ -78,8 +84,8 @@ body {
 }
 
 .ahri-name {
-    width: 300px;
-    height: 40px;
+    width: 30rem;
+    height: 4rem;
 
     text-align: center;
     
@@ -88,7 +94,7 @@ body {
 }
 
 .ahri-name p {
-    padding: .5rem;
+    padding: 2rem;
     color: whitesmoke;
 
     color: whitesmoke;
@@ -107,7 +113,7 @@ body {
 }
 
 .card-info-ahri  p{
-    padding: 2rem;
+    padding: 3rem;
     color: whitesmoke;
     text-shadow: 2px 2px 2px black;
 }
@@ -117,8 +123,8 @@ body {
 }
 
 .character-two {
-    width: 300px;
-    height: 400px;
+    width: 30rem;
+    height: 40rem;
 
     background: rgba(0, 0, 0, .5);
     border-radius: .5rem;
@@ -141,8 +147,8 @@ body {
 }
 
 .wrapper-braum {
-    width: 300px;
-    height: 180px;
+    width: 30rem;
+    height: 18rem;
     
     background: url(_images/braum.jpg);
     background-repeat: no-repeat;
@@ -151,8 +157,8 @@ body {
 }
 
 .braum-name {
-    width: 300px;
-    height: 40px;
+    width: 30rem;
+    height: 4rem;
 
     text-align: center;
     
@@ -161,7 +167,7 @@ body {
 }
 
 .braum-name p {
-    padding: .5rem;
+    padding: 2rem;
     color: whitesmoke;
 
     font-family: 'Vollkorn+SC';
@@ -177,7 +183,7 @@ body {
 }
 
 .card-info-braum  p{
-    padding: 1.5rem;
+    padding: 3rem;
     color: whitesmoke;
     text-shadow: 2px 2px 2px black;
 }
@@ -187,8 +193,8 @@ body {
 }
 
 .character-three {
-    width: 300px;
-    height: 400px;
+    width: 30rem;
+    height: 40rem;
 
     background: rgba(0, 0, 0, .5);
     border-radius: .5rem;
@@ -210,8 +216,8 @@ body {
 }
 
 .wrapper-aurelion {
-    width: 300px;
-    height: 180px;
+    width: 30rem;
+    height: 18rem;
     
     background: url(_images/Aurelion.jpg);
     background-repeat: no-repeat;
@@ -220,8 +226,8 @@ body {
 }
 
 .aurelion-name {
-    width: 300px;
-    height: 40px;
+    width: 30rem;
+    height: 4rem;
 
     text-align: center;
     
@@ -230,7 +236,7 @@ body {
 }
 
 .aurelion-name p {
-    padding: .5rem;
+    padding: 2rem;
     color: whitesmoke;
 
     font-family: 'Vollkorn+SC';
@@ -246,7 +252,7 @@ body {
 }
 
 .card-info-aurelion p {
-    padding: 1.5rem;
+    padding: 3rem;
     color: whitesmoke;
     text-shadow: 2px 2px 2px black;
 }
@@ -256,8 +262,8 @@ body {
 }
 
 .character-four {
-    width: 300px;
-    height: 400px;
+    width: 30rem;
+    height: 40rem;
 
     background: rgba(0, 0, 0, .5);
     border-radius: .5rem;
@@ -279,8 +285,8 @@ body {
 }
 
 .wrapper-fizz {
-    width: 300px;
-    height: 180px;
+    width: 30rem;
+    height: 18rem;
     
     background: url(_images/Fizz.jpg);
     background-repeat: no-repeat;
@@ -289,8 +295,8 @@ body {
 }
 
 .fizz-name {
-    width: 300px;
-    height: 40px;
+    width: 30rem;
+    height: 4rem;
 
     text-align: center;
     
@@ -299,7 +305,7 @@ body {
 }
 
 .fizz-name p {
-    padding: .5rem;
+    padding: 2rem;
     color: whitesmoke;
 
     font-family: 'Vollkorn+SC';
@@ -315,7 +321,7 @@ body {
 }
 
 .card-info-fizz p {
-    padding: 1.5rem;
+    padding: 3rem;
     color: whitesmoke;
     text-shadow: 2px 2px 2px black;
 }
@@ -325,8 +331,8 @@ body {
 }
 
 .character-five {
-    width: 300px;
-    height: 400px;
+    width: 30rem;
+    height: 40rem;
 
     background: rgba(0, 0, 0, .5);
     border-radius: .5rem;
@@ -348,8 +354,8 @@ body {
 }
 
 .wrapper-anivia {
-    width: 300px;
-    height: 180px;
+    width: 30rem;
+    height: 18rem;
     
     background: url(_images/anivia.jpg);
     background-repeat: no-repeat;
@@ -358,8 +364,8 @@ body {
 }
 
 .anivia-name {
-    width: 300px;
-    height: 40px;
+    width: 30rem;
+    height: 4rem;
 
     text-align: center;
     
@@ -368,7 +374,7 @@ body {
 }
 
 .anivia-name p {
-    padding: .5rem;
+    padding: 2rem;
     color: whitesmoke;
 
     font-family: 'Vollkorn+SC';
@@ -384,7 +390,7 @@ body {
 }
 
 .card-info-anivia p {
-    padding: 1.5rem;
+    padding: 3rem;
     color: whitesmoke;
     text-shadow: 2px 2px 2px black;
 }
@@ -394,8 +400,8 @@ body {
 }
 
 .character-six {
-    width: 300px;
-    height: 400px;
+    width: 30rem;
+    height: 40rem;
 
     background: rgba(0, 0, 0, .5);
     border-radius: .5rem;
@@ -417,8 +423,8 @@ body {
 }
 
 .wrapper-heimer {
-    width: 300px;
-    height: 180px;
+    width: 30rem;
+    height: 18rem;
     
     background: url(_images/Heimerdinger.jpg);
     background-repeat: no-repeat;
@@ -427,8 +433,8 @@ body {
 }
 
 .heimer-name {
-    width: 300px;
-    height: 40px;
+    width: 30rem;
+    height: 4rem;
 
     text-align: center;
     
@@ -437,7 +443,7 @@ body {
 }
 
 .heimer-name p {
-    padding: .5rem;
+    padding: 2rem;
     color: whitesmoke;
 
     font-family: 'Vollkorn+SC';
@@ -453,7 +459,7 @@ body {
 }
 
 .card-info-heimer p {
-    padding: 1.5rem;
+    padding: 3rem;
     color: whitesmoke;
     text-shadow: 2px 2px 2px black;
 }
@@ -463,8 +469,8 @@ body {
 }
 
 .wrapper-button {
-    width: 200px;
-    height: 100px;
+    width: 20rem;
+    height: 10rem;
 
     background: rgba(0, 0, 0, .5);
     border-radius: .5rem;
@@ -475,8 +481,8 @@ body {
 }
 
 .wrapper-button button {
-    width: 200px;
-    height: 100px;
+    width: 20rem;
+    height: 10rem;
     
     background: rgba(0, 0, 0, .7);
     border: none;
