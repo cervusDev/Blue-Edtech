@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 62.25%;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    /* evita a barra de rolagem */
+    overflow: hidden;
+    position: relative;
+}
+.container {
+    display: flex;
+}
+.wrapper-background {
+    width: 100%;
+    height: 100%;
+    /* garante a barra de rolagem */
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+.wrapper-background img {
+    width: 100%;
+    height: 100%;
+    /* comportamento do objeto contido na div */
+    object-fit: cover;
+    opacity: .9;
+}
+
+.banner {
+    /* só funciona dentro de um objeto com position relative */
+    position: absolute;
+    top:5%;
+    left: 47%;
+
+    color: whitesmoke;
+    font-family: 'Roboto';
+    font-style: italic;
+    font-size: 3.0em;
+    text-transform: uppercase;
+}
+
+.banner p {
+    position: relative;
+    margin-left: -27%;
+    padding: .1em   ;
+
+    font-family: 'Vollkorn+SC';
+    color: whitesmoke;
+    font-size: 3em;
+}
+
+@media(max-width: 765px) {
+    html {
+        font-size: 40%;
+    }
+}
