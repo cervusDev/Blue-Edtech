@@ -22,6 +22,7 @@ body {
     position: relative;
 }
 
+<<<<<<< HEAD
 .title {
     position: absolute;
     margin-top: 3rem;
@@ -44,6 +45,8 @@ body {
 }
 
 
+=======
+>>>>>>> parent of a01570f (modulo em andamento)
 .flex {
     display:flex;
     justify-content: center;      
