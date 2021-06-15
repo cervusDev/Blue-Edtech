@@ -51,7 +51,7 @@ body {
 
 .character-one {
     width: 17.5vw;
-    height: 47.5vh;
+    height: 50.5vh;
 
     background: rgba(0, 0, 0, .5);
     border-radius: .5rem;
@@ -74,8 +74,8 @@ body {
 }
 
 .wrapper-ahri {
-    width: 30rem;
-    height: 18rem;
+    width: 17.5vw;
+    height: 21.5vh;
     
     background: url(_images/ahri.jpg);
     background-repeat: no-repeat;
@@ -84,8 +84,8 @@ body {
 }
 
 .ahri-name {
-    width: 30rem;
-    height: 4rem;
+    width:17.5vw ;
+    height: 3.5rem;
 
     text-align: center;
     
@@ -94,7 +94,7 @@ body {
 }
 
 .ahri-name p {
-    padding: 2rem;
+    padding: .5em;
     color: whitesmoke;
 
     color: whitesmoke;
@@ -113,7 +113,7 @@ body {
 }
 
 .card-info-ahri  p{
-    padding: 3rem;
+    padding: .5rem;
     color: whitesmoke;
     text-shadow: 2px 2px 2px black;
 }
