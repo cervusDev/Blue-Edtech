@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="../static/">
+    <script type="text/javascript" src="../static/main.js" defer></script>
     <title>Pokedex</title>
 
 </head>
@@ -21,6 +22,17 @@
 
         <div class="lista-pokemons">
             {% for pokemon in pokemons %}
+
+            <div class="card-pokemon" data-nome = '{{pokemon.nome}}'>
+                <div class="imagem-pokemon">
+                    <img src="{{caminhoImagem}}/{{pokemon.numero}}.png">
+                </div>
+
+                <div class="nome-pokemon">
+                    <b>{{pokemon.nome}}</b>
+                </div>
+            </div>
+            {% endfor %}
         </div>
     </div>
 </body>

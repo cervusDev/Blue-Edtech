@@ -10,7 +10,7 @@ def home():
     return render_template(
     'main.html',
     pokemons = pokemons,
-    caminhoImagem = caminhoImagem 
+    caminhoImagem = caminhoImagem,
     )
 
 if __name__ == '__main__':
