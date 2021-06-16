@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="../static/">
+    <link rel="stylesheet" href="../static/style.css">
     <script type="text/javascript" src="../static/main.js" defer></script>
     <title>Pokedex</title>
 
@@ -23,7 +23,7 @@
         <div class="lista-pokemons">
             {% for pokemon in pokemons %}
 
-            <div class="card-pokemon" data-nome = '{{pokemon.nome}}'>
+            <div class="card-pokemon" data-nome = "{{pokemon.nome}}">
                 <div class="imagem-pokemon">
                     <img src="{{caminhoImagem}}/{{pokemon.numero}}.png">
                 </div>
