@@ -1,24 +1,34 @@
-from flask import (Flask, Blueprint, render_template)
+from flask import (Flask, render_template)
+from flask_sqlalchemy import (SQLAlchemy)
 
 app = Flask(__name__)
 
-registros = [
-  {
-    'id': 1,
-    'nome': 'Matrix',
-    'url':'https://br.web.img2.acsta.net/medias/nmedia/18/91/08/82/20128877.JPG'
-  },
-  {
-    'id': 2,
-    'nome': 'Matrix Reloaded',
-    'url':'https://images-na.ssl-images-amazon.com/images/I/61gZbAKOU5L._AC_SX522_.jpg'
-  },
-  {
-    'id': 3,
-    'nome': 'Matrix Revolution',
-    'url':'https://upload.wikimedia.org/wikipedia/pt/9/94/Matrix_revolutions.jpg'
-  }
-]
+#DataBase constructor
+user = 'xbjebcjp'
+password = 'jgQSsvr7VQeW2k1nJbSxirnjNi0Dijhj'
+host = 'tuffi.db.elephantsql.com'
+database = 'xbjebcjp'
+
+app.config['SQLALCHEMY_DATABASE_URI'] = f'postgresql://{user}:{password}@{host}/{database}'
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+app.secret_key = 'adwaita'
+
+db = SQLAlchemy(app)
+
+#Filmes
+
+class Filmes(db.Model):
+  id = db.Column(db.Integer, primary_key = True)
+  nome = db.Column(db.String(255), nullable = False)
+  url = db.Column(db.String(255), nullable = False)
+
+  def __init__(self, nome, url):
+    self.nome = nome
+    self.url = url
+  
+  @staticmethod
+  def read_all():
+    return Filmes.query.order_by(Filmes.id.desc()).all()
 
 @app.route('/')
 def home ():
@@ -29,6 +39,7 @@ def home ():
 
 @app.route('/read')
 def read ():
+  registros = Filmes.read_all()
   return render_template(
     'read.html',
     registros = registros
@@ -36,7 +47,7 @@ def read ():
 
 @app.route('/read/<registro_id>')
 def details (registro_id):
-  return 'pagina do filme' + registro_id
+  return 'pagina do filme' + registro_id  
 
 
 # trabalhar com dados mockados
