@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+.content {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: .5rem;
+}
+
+.content img {
+  max-width: 15rem;
+  max-height: 15rem;
+}
+
+.content a {
+  font-size: 1.7rem;
+}
