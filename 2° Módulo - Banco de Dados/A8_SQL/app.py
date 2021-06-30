@@ -1,4 +1,4 @@
-from flask import (Flask, render_template)
+from flask import Flask, render_template, request
 from flask_sqlalchemy import (SQLAlchemy)
 
 #Inicialização do Flask
@@ -38,6 +38,10 @@ class Filmes(db.Model):
   def resume(registro_id):
     #select * from filmes where id == xpto
     return Filmes.query.get(registro_id) # Este parâmetro registro_id está ligado ao parâmetro da função details
+  
+  def save(self):
+    db.session.add(self)
+    db.session.commit()
 
 
 #Rotas
@@ -80,6 +84,20 @@ def details (registro_id):
     registro = registro
   ) 
 
+@app.route('/create', methods = ("GET", "POST"))
+def create():
+  id_atribuido = None
+  if request.method == 'POST':
+    form = request.form
+    registro = Filmes(form['nome'], form['url'])
+    registro.save()
+    id_atribuido = registro.id
+
+  return render_template(
+    'create.html',
+    id_atribuido = id_atribuido
+
+  )
 
 if __name__ == '__main__':
   app.run(debug = True)    
