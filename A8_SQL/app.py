@@ -1,4 +1,3 @@
-from operator import ne
 from flask import Flask, render_template, request
 from flask_sqlalchemy import (SQLAlchemy)
 
@@ -36,7 +35,7 @@ class Filmes(db.Model):
     return Filmes.query.order_by(Filmes.id.asc()).all()
   
   @staticmethod
-  def read_single(registro_id):
+  def resume(registro_id):
     #select * from filmes where id == xpto
     return Filmes.query.get(registro_id) # Este parâmetro registro_id está ligado ao parâmetro da função details
   
@@ -44,10 +43,6 @@ class Filmes(db.Model):
     db.session.add(self)
     db.session.commit()
 
-  def update(self, new_data):
-    self.nome = new_data.nome
-    self.url = new_data.url
-    
 
 #Rotas
 @app.route('/')
@@ -103,24 +98,6 @@ def create():
     id_atribuido = id_atribuido
 
   )
-
-@app.route('/update/<registro_id>', methods = ('GET', 'POST'))
-def update(registro_id):
-  sucesso = None
-  registro = Filmes.read_single(registro_id)
-
-  if request.method == 'POST':
-    form = request.form
-    
-    new_data = Filmes(form['nome'], form['url']) # variavel ligada ao método estático update
-    registro.update(new_data)
-    sucesso = True
-  return render_template(
-    'update.html',
-    registro = registro,
-    sucesso = sucesso,
-  )
-
 
 if __name__ == '__main__':
   app.run(debug = True)    

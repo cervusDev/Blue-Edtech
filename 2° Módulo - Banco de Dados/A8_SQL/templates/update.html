@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="../static/global.css">
+  <link rel="stylesheet" href="../static/pages/update.css">
+  <link rel="stylesheet" href="../static/pages/create.css">
+  <link rel="stylesheet" href="../static/pages/read.css">
+  <link rel="stylesheet" href="../static/pages/read.css">
+  <link rel="stylesheet" href="../static/pages/style.css">
+
+  <title>Blue Flix</title>
+</head>
+
+  <body>
+    {%include 'header.html'%}
+
+    {% if sucesso %}
+
+      <div class="content">
+        <p>Dados alterados com sucesso</p>
+      </div>
+    
+      {% endif %}
+
+      <div class="content">
+        <p>editar dados do filme</p>
+      </div>
+      <div class="content">
+        <form action="" method="POST">
+          <div class="content form_input">
+
+            <label for="nome" class="sr-only">nome: </label>
+            <input type="text" id="nome" name = "nome" value="{{registro.nome}}">
+
+          </div>
+
+          <div class="content form_input">
+
+            <label for="url" class="sr-only">url: </label>
+            <input type="text" id = "url" name = "url" value="{{registro.url}}">
+
+          </div>
+
+          <div class="content form_input">
+            <input type="submit" class="button" value="Enviar">
+          </div>
+
+        </form>
+      </div>
+  </body>
+</html>
