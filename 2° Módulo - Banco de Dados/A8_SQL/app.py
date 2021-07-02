@@ -1,5 +1,4 @@
-from operator import ne
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, redirect
 from flask_sqlalchemy import (SQLAlchemy)
 
 #Inicialização do Flask
@@ -47,6 +46,10 @@ class Filmes(db.Model):
   def update(self, new_data):
     self.nome = new_data.nome
     self.url = new_data.url
+
+  def delete(self):
+    db.session.delete(self)
+    db.session.commit()
     
 
 #Rotas
@@ -119,6 +122,29 @@ def update(registro_id):
     'update.html',
     registro = registro,
     sucesso = sucesso,
+  )
+
+@app.route('/delete/<registro_id>')
+def delete(registro_id):
+  registro = Filmes.read_single(registro_id)
+
+  return render_template(
+    'delete.html',
+    registro = registro
+  )
+@app.route('/delete/<registro_id>/confirmed')
+def delete_confirmed(registro_id):
+  sucesso = None
+  registro = Filmes.read_single(registro_id)
+
+  if registro:
+    registro.delete()
+    sucesso = True
+
+  return render_template(
+    'delete.html',
+    registro = registro,
+    sucesso = sucesso
   )
 
 
