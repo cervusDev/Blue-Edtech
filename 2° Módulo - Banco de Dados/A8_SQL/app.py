@@ -70,25 +70,11 @@ def read ():
 
 @app.route('/read/<registro_id>')
 def details (registro_id):
-  image = ''
   registro = Filmes.resume(registro_id)
   print(registro)
 
-  if registro_id == 1:
-
-    image = 'https://br.web.img2.acsta.net/medias/nmedia/18/91/08/82/20128877.JPG'
-
-  elif registro_id == 2:
-
-    image = 'https://images-na.ssl-images-amazon.com/images/I/61gZbAKOU5L._AC_SX522_.jpg'
-
-  elif registro_id == 3:
-
-    image = 'https://upload.wikimedia.org/wikipedia/pt/9/94/Matrix_revolutions.jpg'
-
   return render_template(
     'resume.html',
-    image = image,
     registro = registro
   ) 
 
