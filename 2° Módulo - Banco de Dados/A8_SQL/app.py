@@ -43,7 +43,7 @@ class Filmes(db.Model):
     db.session.add(self)
     db.session.commit()
 
-  def update(self, new_data):
+  def update(self, new_data): 
     self.nome = new_data.nome
     self.url = new_data.url
 
@@ -104,6 +104,7 @@ def update(registro_id):
     new_data = Filmes(form['nome'], form['url']) # variavel ligada ao método estático update
     registro.update(new_data)
     sucesso = True
+
   return render_template(
     'update.html',
     registro = registro,
